@@ -1,0 +1,22 @@
+{
+  "development": {
+    "storage": "data/database.sqlite",
+    "dialect": "sqlite",
+    "tokenSecret": "secret",
+    "tokenTimeout": 3600
+  },
+  "test": {
+    "storage": "data/database.sqlite",
+    "dialect": "sqlite",
+    "tokenSecret": "secret",
+    "tokenTimeout": 3600,
+    "logging": false
+  },
+  "production": {
+    "storage": "data/database.sqlite",
+    "dialect": "sqlite",
+    "tokenSecret": "secret",
+    "tokenTimeout": 3600,
+    "logging": false
+  }
+}
